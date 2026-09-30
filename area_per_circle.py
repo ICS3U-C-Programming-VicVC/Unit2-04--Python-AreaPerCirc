@@ -12,7 +12,7 @@ def main():
     radius = int(input("Enter Radius of circle (cm): "))
 
     # Calculate the Circumference and Area from the Radius
-    circumference = math.tau * radius
+    circumference = (math.pi * 2) * radius
     area = math.pi * math.pow(radius, 2)
 
     # Display the results of Circumference and Area
